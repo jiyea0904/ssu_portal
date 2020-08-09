@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>:: 성신여자대학교 ::</title>
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+
+</head>
+<!-- 포털로그인 -->
+<body id="login">
+	<!-- 로그인 모바일 환경 -->
+    <div id="login_mobile">
+        <h1><img src="images/login/logo.png" alt="성신여대 로그인 로고" /></h1>
+        <!-- 로그인 입력 -->
+        <div class="login_box">
+            <p class="login_title"><span>성신여자대학교 포털 시스템</span> 방문을 환영합니다.</p>
+            <!-- Portlet_tab_main-->
+            <div class="Portlet_tab_main m1">
+                <ul>
+                    <li class="m1"><a href="#" class="first"><span>아이디 로그인</span></a>
+                        <ul> 
+                            <div class="login_id">
+                                <!-- 로그인 입력 -->
+                                <fieldset>
+                                    <legend>로그인 폼</legend>
+                                    <ul>
+                                        <li><label for="id"></label><input type="text" id="id"  value="아이디를 입력해주세요."/></li>
+                                        <li><label for="pw"></label><input type="password" id="pw"  value="비밀번호"/></li>
+                                    </ul>
+                                    <p class="uchk"><input type="checkbox" id="saveid" /><label for="saveid">아이디저장</label></p>                                        
+                                    <a href="#" class="login_btn">로그인</a>
+                                </fieldset>
+                                <!-- 로그인 입력 //--> 
+                                <ul class="search_link">
+                                    <li><a href="#">아이디찾기</a></li>
+                                    <li><a href="#">비밀번호 초기화</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                     </li>
+                     <li class="m2"><a href="#"><span>인증서 로그인</span></a>
+                        <ul>
+                            <div class="login_regist">
+                                <p class="regist_txt">인증서 로그인을 이용할 경우,<br/><span> 최초1회의 인증서 등록</span>이 필요합니다.</p>
+                                <p class="uchk"><input type="checkbox" id="saveregist" /><label for="saveregist">인증서 자동 팝업사용</label></p>                        	
+                                <a href="#" class="login_btn">로그인</a>
+                                <!-- 로그인 입력 //--> 
+                                <ul class="search_link">
+                                    <li><a href="#">인증서 등록 및 삭제</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                     </li>
+                </ul>
+            </div>
+            <!-- Portlet_tab_main//-->
+        </div>
+        <!-- 로그인 입력 //-->
+        <!-- 주의사항 -->
+        <div class="login_matter">
+        	<ul>
+            	<li>학생 및 원생의 경우, <span>학번으로 로그인</span> 이용</li>
+            	<li>교직원은 인증서 등록후, <span>인증서 로그인</span> 이용</li>
+            </ul>
+        </div>
+        <!-- 주의사항 //-->
+        <!-- 성신공지 -->
+        <div class="academicArea">
+            <p>Portal System Notice</p>
+            <h3>성신공지</h3>
+            <ul>
+                <li><a href="#">원격지원 접속 프로그램 원격지원 접속 프로그램원격지원 접속 프로그램 원격지원 접속 프로그램원격지원 접속 프로그램 원격지원 접속 프로그램원격지원 접속 프로그램 원격지원 접속 프로그램</a><span class="date">2017.10.10</span></li>
+                <li><a href="#">포털시스템 비밀번호 변경 및</a><span class="date">2017.10.10</span></li>
+                <li><a href="#">신입생 및 편입생 포털시스템 초</a><span class="date">2017.10.10</span></li>
+                <li><a href="#">학내 무선 와이파이(WiFi) 접속</a><span class="date">2017.10.10</span></li>
+                <li class="last"><a href="#">포털시스템 로그인 후  링크 사이</a><span class="date">2017.10.10</span></li>
+            </ul>
+        </div>
+        <!-- 성신공지 //-->
+        <!-- 바로가기 서비스 -->
+        <div class="qservice">
+            <ul>
+                <li class="service01"><a href="#">웹메일</a></li>
+                <li class="service02"><a href="#">포털 도움말</a></li>
+                <li class="service03"><a href="#">학교 홈페이지</a></li>
+                <li class="service04"><a href="#">원격지원</a></li>
+            </ul>
+        </div>
+        <!-- 바로가기 서비스 //-->
+        <!-- 부가서비스 -->
+        <div class="addserviceArea">
+            <ul>
+                <li class="first"><a href="#" title="개인정보처리방침" >개인정보처리방침</a></li>
+                <li><a href="#" title="이메일무단수집거부">이메일무단수집거부</a></li>
+            </ul>
+        </div>
+        <!-- 부가서비스 //-->
+        <!-- footer -->
+        <div id="footer">
+        	<p>Copyright (c) 2018 Sungshin University All Rights Reserved.</p>
+        </div>
+        <!-- footer //-->
+    </div>
+    <!-- 로그인 모바일 환경 //-->
+	<!-- logig_back -->
+    <div id="login_back">
+        <!-- 로그인 백그라운드 -->
+        <div id="login_bg"></div>
+		<div id="login_bg_bottom"></div>
+        <!-- 로그인 백그라운드 //-->
+            <!-- login_wrap -->
+            <div class="login_wrap">
+                <h1><img src="images/login/logo.png" alt="성신여대 로그인 로고" /></h1>
+                <!-- 로그인 전체 영역 -->
+                <div class="login_boxing">
+                    <!-- 로그인 입력 영역 -->
+                    <div class="loginArea">
+                        <p class="login_title"><span>성신여자대학교 포털 시스템</span><br/>방문을 환영합니다.</p>
+                        <!-- Portlet_tab_main-->
+                        <div class="Portlet_tab_main m1">
+                            <ul>
+                                <li class="m1"><a href="#" class="first"><span>아이디<br/>로그인</span></a>
+                                    <ul>
+                                        <div class="login_id">
+                                            <!-- 로그인 입력 -->
+                                            <fieldset>
+                                                <legend>로그인 폼</legend>
+                                                <ul>
+                                                    <li><label for="id_web"></label><input type="text" id="id_web"  value="아이디를 입력해주세요."/></li>
+                                                    <li><label for="ppw_webw"></label><input type="password" id="pw_web"  value="비밀번호"/></li>
+                                                </ul>
+                                        	    <p class="uchk"><input type="checkbox" id="saveid_web" /><label for="saveid_web">아이디저장</label></p>                                        
+                                                <a href="#" class="login_btn">로그인</a>
+                                            </fieldset>
+                                            <!-- 로그인 입력 //--> 
+                                            <ul class="search_link">
+                                                <li><a href="#">아이디찾기</a></li>
+                                                <li><a href="#">비밀번호 초기화</a></li>
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                 </li>
+                                 <li class="m2"><a href="#"><span>인증서<br/>로그인</span></a>
+                                    <ul>
+                                        <div class="login_regist">
+                                            <p class="regist_txt">인증서 로그인을 이용할 경우,<br/><span> 최초1회의 인증서 등록</span>이 필요합니다.</p>
+                                            <p class="uchk"><input type="checkbox" id="saveregist_web" /><label for="saveregist_web">인증서 자동 팝업사용</label></p>                        	
+                                            <a href="#" class="login_btn">로그인</a>
+                                            <!-- 로그인 입력 //--> 
+                                            <ul class="search_link">
+                                                <li><a href="#">인증서 등록 및 삭제</a></li>
+                                            </ul>
+                                        </div>
+                                    </ul>
+                                 </li>
+                            </ul>
+                        </div>
+                        <!-- Portlet_tab_main//-->
+                        <!-- 주의사항 -->
+                        <div class="matterArea">
+                            <ul> 
+                                <li>학부 및 원생의 경우, <span>학번으로 로그인</span> 해주시길 바랍니다.</li>
+                                <li>교직원은 인증서 등록 후, <span>인증서 로그인</span> 을 이용해주시길 바랍니다.</li>
+                            </ul>
+                        </div>
+                        <!-- 주의사항 //-->
+                        <!-- 부가서비스 -->
+                        <div class="addserviceArea">
+                            <ul>
+                                <li class="first"><a href="#" title="개인정보처리방침" >개인정보처리방침</a></li>
+                                <li><a href="#" title="이메일무단수집거부">이메일무단수집거부</a></li>
+                            </ul>
+                        </div>
+                        <!-- 부가서비스 //-->
+                    </div>
+                    <!-- 로그인 입력 영역 //-->
+                    <!-- 성신공지-->
+                    <div class="academicArea">
+                        <p>Portal System Notice</p>
+                        <h3>성신공지</h3>
+                        <ul>
+                            <li><a href="#">원격지원 접속 프로그램 원격지원 접속 프로그램</a><span class="date">2017.10.10</span></li>
+                            <li><a href="#">포털시스템 비밀번호 변경 및</a><span class="date">2017.10.10</span></li>
+                            <li><a href="#">신입생 및 편입생 포털시스템 초</a><span class="date">2017.10.10</span></li>
+                            <li><a href="#">학내 무선 와이파이(WiFi) 접속</a><span class="date">2017.10.10</span></li>
+                            <li><a href="#">포털시스템 로그인 후  링크 사이</a><span class="date">2017.10.10</span></li>
+                        </ul>
+                    </div>
+                    <!-- 성신공지 //-->
+                </div>
+                <!-- 로그인 전체 영역 //-->
+                <!-- footer-->
+                <div class="footer">
+                    <h5>Copyright©2017 KOREA POLYTECHNIC UNIVERSITY All RIGHTS RESERVED.</h5>
+                </div>
+                <!-- footer //-->
+            </div>
+            <!-- login_wrap //-->
+            <!-- 바로가기 서비스 -->
+            <div class="qservice">
+                <ul>
+                    <li class="service01"><a href="#">웹메일</a></li>
+                    <li class="service02"><a href="#">포털<br />도움말</a></li>
+                    <li class="service03"><a href="#">학교<br />홈페이지</a></li>
+                    <li class="service04"><a href="#">원격지원</a></li>
+                </ul>
+            </div>
+            <!-- 바로가기 서비스 //-->
+    </div>
+	<!-- logig_back //-->
+</body>
+<!-- 포털 로그인 -->
+</html>
+
+

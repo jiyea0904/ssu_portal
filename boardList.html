@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>:: 성신여자대학교 ::</title>
+<link rel="stylesheet" type="text/css" href="css/sub.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/sub.js"></script>
+</head>
+<body>
+<!-- Header -->
+<div id="header">
+	<!-- Header_warp -->
+    <div class="headerWarp">
+        <h1><img src="images/main/logo_web.gif" alt="성신여자대학교 로고" /></h1>
+		<div class="topArea">
+			<!-- topmenu -->
+			<ul class="topmenu">
+				<li class="first"><a href="#">HOME</a></li>
+				<li><a href="#">포털도움말</a></li>
+				<li><a href="#">CAFE</a></li>
+			</ul>
+			<!-- topmenu //-->
+			<!-- btnArea -->
+			<div class="btnArea">
+				<a href="#"><span>MY PAGE</span></a>
+				<a href="#" class="logout"><span>LOGOUT</span></a>
+			</div>
+			<!-- btnArea //-->
+		</div>
+		<div class="gnb">
+			<a href="#" class="btn_menu"><img src="images/main/btn_menu.png" alt="메뉴" /></a>
+			<div class="bg"></div>
+			<div class="gnbmenu">
+				<h2>SSU PORTAL SYSTEM</h2>
+				<ul class="depth_1">
+					<li><a href="#"><span>통합정보</span></a></li>
+					<li><a href="#"><span>그룹웨어</span></a></li>
+					<li><a href="#"><span>웹메일</span></a></li>
+					<li><a href="#"><span>도서관</span></a></li>
+					<li><a href="#"><span>교육시스템</span></a></li>
+					<li class="depth"><a href="#"><span>커뮤니티</span></a>
+						<ul class="depth_2">
+							<li><a href="#">포털공지</a></li>
+							<li><a href="#">학부공지</a></li>
+							<li><a href="#">일반공지</a></li>
+							<li><a href="#">대학원공지</a></li>
+							<li class="depth"><a href="#">종합민원</a></li>
+							<li class="depth"><a href="#">성신광장</a>
+								<ul class="depth_3">
+									<li><a href="#">알뜰장터</a></li>
+									<li><a href="#">유실물센터</a></li>
+									<li><a href="#">설문조사</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#"><span>경영정보</span></a></li>
+				</ul>
+				<a herf="#" class="btn_close"><img src="images/main/btn_close.png" alt="메뉴닫기" /></a>
+			</div>
+			<a href="#" class="btn_search">통합검색</a>
+			<a href="#" class="btn_search_close">검색닫기</a>
+			<a href="#" class="btn_profile"><img src="images/main/btn_profile.png" alt="사용자정보" /></a>
+		</div>
+    </div>
+    <!-- Header_warp //-->
+	<div id="searchArea">
+		<div class="searchWarp">
+			<h2>SEARCH</h2>
+			<fieldset>
+				<label for="search"><input type="text" name="search" id="search" value="검색어를 입력하세요." /></label>
+				<a href="#"><img src="images/main/icon_search.png" alt="검색" /></a>
+			</fieldset>
+		</div>
+	</div>
+</div>
+<!-- Header //-->
+<!-- sub -->
+<div id="sub">
+	<!-- sub_wrap -->
+	<div class="sub_wrap">
+        <!-- leftmenu -->
+        <div class="leftmenu">
+            <h2><span>커뮤니티</span></h2>
+            <ul class="menudepth_1">
+                <li><a href="#" title="성신광장 이동"><span>성신광장</span></a>
+                    <ul class="menudepth_2">
+                        <li><a  href="#" title="알뜰장터로 이동">-  알뜰장터</a></li>
+                        <li><a  href="#" title="유실물센터로 이동">-  유실물센터</a></li>
+                        <li><a  href="#" title="설문조사로 이동">-  설문조사</a></li>
+                    </ul>
+                </li>
+                <li><a class="depth_01 down" href="#" title="포털공지로 이동"><span>포털공지</span></a></li>
+                <li><a class="depth_01 down" href="#" title="학부공지로 이동"><span>학부공지</span></a></li>
+            </ul>
+        </div>
+        <!-- leftmenu //-->
+        <!-- sub_contents -->
+        <div class="sub_contents">
+        	<h3>공지사항</h3>
+            <!-- navigation -->
+            <div class="navigation">
+                <ul>
+                    <li class="home"><a href="#" title ="홈으로 이동">홈</a></li>
+                    <li><a href="#" title ="커뮤니티으로 이동">커뮤니티</a></li>
+                    <li><a href="#" title ="성신광장으로 이동">성신광장</a></li> 
+                    <li><a href="#" title ="공지사항으로 이동">공지사항</a></li> 
+                </ul>
+            </div>
+            <!-- navigation //-->
+            <div class="contentsArea">
+                <!-- 게시판 리스트 iframe 영역입니다 -->
+                <iframe title="게시판 리스트 영역" src="boardList_iframe.html" style="background-color:#fff;" width="100%;" height="782px;" scrolling="no" frameborder="0" >                
+                </iframe>
+                <!-- 게시판 리스트 iframe 영역입니다 //-->
+            </div>
+        </div>
+        <!--sub_contents //-->
+	</div>
+	<!-- sub_wrap //-->
+</div>
+<!-- sub //-->
+<div id="sitelink">
+	<button class="btn_opensitelink"><span>관련사이트바로가기</span></button>
+	<button class="btn_closesitelink"><span>관련사이트바로가기</span></button>
+	<div class="sitelinkWarp">
+		 <ul>
+			 <li><a href="#">입학관리시스템</a></li>
+			 <li><a href="#">전자구매/계약</a></li>
+			 <li><a href="#">디지털자산관리시스템</a></li>
+			 <li><a href="#">임상실험심의시스템</a></li>
+			 <li><a href="#">표절검사서비스</a></li>
+			 <li><a href="#">교육시스템</a></li>
+			 <li><a href="#">교수학습홈페이지</a></li>
+			 <li><a href="#">더이룸</a></li>
+			 <li><a href="#">인터넷증명발급</a></li>
+			 <li><a href="#">산학협력단</a></li>
+			 <li><a href="#">발전기금</a></li>
+			 <li><a href="#">출석관리</a></li>
+			 <li><a href="#">규정관리</a></li>
+			 <li><a href="#">K-MOOC</a></li>
+			 <li><a href="#">성신건강관리센터</a></li>
+			 <li><a href="#">박물관</a></li>
+			 <li><a href="#">성신사회봉사</a></li>
+			 <li><a href="#">기숙사</a></li>
+			 <li><a href="#">성신사회봉사</a></li>
+			 <li><a href="#">학생복지위원회</a></li>
+			 <li><a href="#">성신 ROTC</a></li>
+			 <li><a href="#">성신학원</a></li>
+		</ul>
+	</div>
+</div>
+<!-- footer -->
+<div id="footer">
+	<div class="footer_warp">
+		<ul class="link">
+			<li class="first"><a href="#">개인정보처리방침</a></li>
+			<li><a href="#">이메일무단수집거부</a></li>
+			<li><a href="#">원격지원프로그램</a></li>
+		</ul>
+		<div class="btnArea">
+			<a href="#"><img src="images/main/icon_facebook.png" alt="페이스북" /></a>
+			<a href="#"><img src="images/main/icon_twitter.png" alt="트웨터" /></a>
+		</div>
+		<ul>
+			<li class="address">돈암 수정캠퍼스 TEL. 02)920-7114  (02844)  서울특별시 성북구 보문로 34다길 2</li>
+			<li class="address">미아 운정그린캠퍼스 TEL. 02)920-7870 (01133) 서울특별시 강북구 도봉로 76가길 55</li>
+			<li class="copy">Copyright (c) 2018 Sungshin University All Rights Reserved.</li>
+		</ul>
+	</div>
+</div>
+<!-- footer //-->
+</body>
+</html>
+
+
+

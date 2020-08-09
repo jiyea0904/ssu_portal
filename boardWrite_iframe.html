@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>:: 성신여자대학교 ::</title>
+<link rel="stylesheet" type="text/css" href="css/sub.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/sub.js"></script>
+</head>
+<body class="iframe">
+
+<div class="board">
+    <!-- btnArea-->
+    <div class="btnArea">
+        <div class="R"><a class="btn_black" href="#"><span>저 장</span></a><a class="btn_white" href="#"><span>목 록</span></a></div>
+    </div>
+    <!-- btnArea//-->
+    <!-- table-->
+    <table cellpadding="0" cellspacing="0" summary="게시판쓰기" class="view" >  
+        <caption>게시판쓰기</caption>
+        <colgroup>
+            <col width="20%" />
+            <col width="*%" />
+        </colgroup>
+        <tbody>
+            <tr>
+                <th class="C first th_line" scope="col" ><span class="table_title">제목</span></th>
+                <td class="L td_line"><label for="txt_01"></label><input type="text" class="txt_100per" id="txt_01"/></td>
+            </tr>
+            <tr>
+                <th class="C first th_line" scope="col" ><span class="table_title">작성자</span></th>
+                <td class="L td_line">홍길동</td>
+            </tr>
+            <tr>
+                <th class="C first th_line" scope="col" ><span class="table_title">카테고리</span></th>
+                <td class="L td_line">
+                    <select class="sel_100">
+                        <option>일반</option>
+                        <option>일반</option>
+                        <option>일반</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th class="C first th_line" scope="col" ><span class="table_title">공지여부</span></th>
+                <td class="L td_line">
+					<label for="checkbox_01"></label><input type="checkbox" id="checkbox_01" /><span>홍길동</span>
+					<label for="checkbox_02"></label><input type="checkbox" id="checkbox_02" /><span>공지글 아님</span>
+					<label for="checkbox_03"></label><input type="checkbox" id="checkbox_03" /><span>최상위 공지글</span>
+                </td>
+            </tr>
+            <tr>
+                <th class="C first th_line" scope="col" ><span class="table_title">작성자</span></th>
+                <td class="L td_line"><label for="checkbox_04"></label><input type="checkbox" id="checkbox_04" /><span>비밀글</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- table//-->
+    <!-- table-->
+    <table cellpadding="0" cellspacing="0" summary="게시판쓰기" class="view" >  
+        <caption>게시판쓰기</caption>
+        <colgroup>
+            <col width="20%" />
+            <col width="*%" />
+        </colgroup>
+        <tbody>
+            <tr>
+                <th class="C first th_line" scope="col" ><span class="table_title">내용</span></th>
+                <td class="L td_line">
+                	<textarea name="conttxt" cols="" rows="9"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th class="C first th_line" scope="col" ><span class="table_title">첨부파일</span></th>
+                <td class="L td_line" >
+                    <div class="addFile">
+                        <div class="filelist">
+                            <p>파일은 10개까지 첨부할 수 있으며, 전체 용량은 100Mbyte를 넘을 수 없습니다.</p>
+                            <select name="select" multiple="multiple" id="select">
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                                <option>업무요청파일.hwp (10 Byte)</option>
+                            </select>
+                        </div>
+                        <input type="file" name="fileField" title="파일첨부" class="file_input" id="fileField" />
+                        <div class="leftArea">
+                            <a href="#" class="btn_white"><span>파일추가 +</span></a> <a href="#" class="btn_white"><span>파일삭제 -</span></a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- table//-->
+    <!-- btnArea-->
+    <div class="btnArea">
+        <div class="R"><a class="btn_black" href="#"><span>저 장</span></a><a class="btn_white" href="#"><span>목 록</span></a></div>
+    </div>
+    <!-- btnArea//-->
+</div>
+</body>
+</html>
+
+
+
+

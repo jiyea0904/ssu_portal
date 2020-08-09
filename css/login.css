@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("common.css");
+
+@media all and (min-width:1280px) {  
+
+#login_bg{position:absolute; top:460px; left:0; background:url(../images/login/login_bg.png) no-repeat left top ; width:100%; height:71px; background-size:cover;}
+#login_bg_bottom{position:absolute; top:530px; left:0; width:100%; height:210px;  background-color:#ecebf4;}
+#login_mobile{display:none;}
+
+/* 배경 영역 */
+#login{ top:0; left:0; bottom:0;background:url(../images/login/back.gif) no-repeat right top #ecebf4; width:100%;background-size:cover; min-width:1280px; height:100%; letter-spacing:-1px;}
+#login:after{clear:both; display:block; content:"";}
+#login_back{position:relative; height:100%; min-height:798px;}
+
+#login_back:after{clear:both; display:block; content:"";}
+#login_back .login_wrap{position:relative;width:1164px; margin:0 auto;}
+.login_wrap:after{clear:both; display:block; content:"";}
+#login_back .login_wrap h1{position:absolute; top:-95px; left:0;}
+#login_back .login_boxing{margin:165px auto 0 auto;background-color:#fff; width:855px; height:580px; border-bottom:3px solid #dcdcde;}
+
+/* 로그인 영역*/
+#login_back .login_boxing .loginArea{width:550px; height:100%; float:right; }
+#login_back .login_boxing .loginArea p.login_title{background:url(../images/login/login_title.png) no-repeat left top; padding: 0 0 0 170px; margin:60px 0 0 60px; height:46px; font-weight:400px; font-size:16px; line-height:20px; color:#555;}
+#login_back .login_boxing .loginArea p.login_title span{color:#000;}
+
+/* 로그인 탭영역 */
+.loginArea .Portlet_tab_main{margin:32px 0 0 60px;}
+.loginArea .Portlet_tab_main>ul{position:relative;width:401px;list-style:none; }
+.loginArea .Portlet_tab_main ul:after{display:block;clear:both;content:""}
+.loginArea .Portlet_tab_main li:after{display:block;clear:both;content:""}
+.loginArea .Portlet_tab_main li.m1{margin-bottom:2px;}
+.loginArea .Portlet_tab_main li a{float:left; color:#666;text-decoration:none; width:108px; height:101px;background-color:#525252;  }
+.loginArea .Portlet_tab_main li a span{display:inline-block;  cursor:pointer; display:inline-block; font-size:16px;  font-weight:300;  color:#fff;  padding:32px 0 0 32px;line-height:20px; text-align:center;}
+.loginArea .Portlet_tab_main li>ul{display:none;position:absolute; top:0; left:142px; width:330px; height:195px; margin:0;padding:0;list-style:none;*zoom:1; background:none !important;}
+.loginArea .Portlet_tab_main li ul:after{display:block;clear:both;content:""; }
+.loginArea .Portlet_tab_main li li{float:none;position:relative; margin:0; color:#666; }
+.loginArea .Portlet_tab_main li li a{float:none;margin:0; border:0 !important;background:transparent;font-weight:normal;color:#666 !important;letter-spacing:normal; }
+.loginArea .Portlet_tab_main.m1 .m1>a,
+.loginArea .Portlet_tab_main.m2 .m2>a{ width:116px; height:101px; background:url(../images/login/tab_over.gif) no-repeat left top; }
+.loginArea .Portlet_tab_main.m1 .m1 a span,
+.loginArea .Portlet_tab_main.m2 .m2 a span{line-height:20px; font-size:16px; font-weight:500; font-weight:500; color:#fff;  padding:32px 0 0 32px; display:inline-block;  }
+
+/* 로그인 탭영역 */
+.loginArea .Portlet_tab_main.m1 .m1 ul,
+.loginArea .Portlet_tab_main.m2 .m2 ul{display:block;  margin:0;}
+.loginArea .Portlet_tab_main li li{background:url(../images/login/bullet.gif) no-repeat left 18px;font-size: 14px;  }
+.loginArea .Portlet_tab_main li li span{display:inline-block; border:none !important; background-image:none !important;font-weight:400 !important; padding:0 !important; vertical-align:middle !important; height:17px; line-height:17px;}
+.loginArea .Portlet_tab_main li ul p.uchk input{vertical-align:top;}
+.loginArea .Portlet_tab_main li ul p.uchk label{font-weight:300; color:#888; font-size:12px;height:12px; line-height:12px; margin-left:5px; }
+.loginArea .Portlet_tab_main li fieldset{margin-top:10px;}
+.loginArea .Portlet_tab_main li ul a{background-image:none !important;}
+.loginArea .Portlet_tab_main li ul .login_regist .regist_txt{background-color:#f8f8f8;width:260px; padding:26px 0; border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb; text-align:center; margin:10px 0 10px 0;}
+.loginArea .Portlet_tab_main li ul .login_id a.login_btn{margin-top:2px;}
+.loginArea .Portlet_tab_main li ul .login_regist .search_link{display:inline-block;}
+.loginArea .Portlet_tab_main li ul p span{color:#ee3124;}
+.loginArea .Portlet_tab_main li ul.search_link{padding-top:17px;}
+.loginArea .Portlet_tab_main li ul.search_link li{ float:left; background:url(../images/login/search_bullet.gif) no-repeat left 6px; padding-left:8px; margin-right:8px; height:12px; line-height:12px;}
+.loginArea .Portlet_tab_main li ul.search_link li a{font-size:12px; color:#888;font-weight:200; height:12px; line-height:12px; letter-spacing:-0.05em !important; }
+.loginArea .Portlet_tab_main li ul.search_link li a:hover{color:#555;font-weight:400; }
+
+/* 로그인 도움말 영역 */
+#login_back .login_boxing .loginArea .matterArea{clear:both;  width:100%; height:120px;  margin-top:34px; background:url(../images/login/icon_notice.png) no-repeat 40px center; background-color:#f8f8f8;}
+#login_back .login_boxing .loginArea .matterArea ul{margin:32px 0 0 122px; display:inline-block;}
+#login_back .login_boxing .loginArea .matterArea ul li{font-size:15px; font-weight:300; color:#333; height:28px; line-height:28px;}
+#login_back .login_boxing .loginArea .matterArea ul li span{color:#692395; font-weight:500;}
+
+/* 개인정보영역 */
+#login_back .login_boxing .loginArea .addserviceArea ul{margin:38px 0 0 60px;}
+#login_back .login_boxing .loginArea .addserviceArea ul li{float:left; height:14px; line-height:14px;}
+#login_back .login_boxing .loginArea .addserviceArea ul li a{color:#888; font-weight:100; font-size:14px; }
+#login_back .login_boxing .loginArea .addserviceArea ul li a:hover{color:#555; font-weight:400; text-decoration:underline;}
+#login_back .login_boxing .loginArea .addserviceArea ul li.first{margin-right:20px; padding-right:20px; background:url(../images/login/policy_line.gif) no-repeat right 0;}
+
+/* 성신공지 영역 */
+#login_back .login_boxing .academicArea{ background:url(../images/login/notice_back.gif) no-repeat left top;width:305px; float:left; height:100%;}
+#login_back .login_boxing .academicArea p{ font-weight:200; font-size:12px; color:#c190e0; heighT:12px; line-height:12px; letter-spacing:1px;margin:60px 0 0 40px; }
+#login_back .login_boxing .academicArea h3, #login_back .login_boxing .academicArea ul{margin:0 0 0 40px;}
+#login_back .login_boxing .academicArea h3{font-weight:500; font-size:28px; color:#fff; height:28px; line-height:28px; margin-top:8px;}
+#login_back .login_boxing .academicArea ul{background:url(../images/login/list_line.gif) no-repeat 6px 2px; margin-top:34px; display:inline-block;}
+#login_back .login_boxing .academicArea ul li{background:url(../images/login/list_off.gif) no-repeat left 3px; padding-left:32px; height:61px; }
+#login_back .login_boxing .academicArea ul li:hover, #login_back .login_boxing .academicArea ul li.on{background:url(../images/login/list_on.gif) no-repeat left 3px; }
+#login_back .login_boxing .academicArea ul li a{width:190px;font-size:16px; height:16px; line-height:16px; font-weight:300; color:#c190e0; display:inline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+#login_back .login_boxing .academicArea ul li a:hover, #login_back .login_boxing .academicArea ul li.on a{font-weight:400; color:#fff;}
+#login_back .login_boxing .academicArea ul li span{font-size:13px; font-weight:200; color:#c190e0; height:13px; line-height:13px; margin-top:8px; display:inline-block;}
+
+/* 자주찾는 서비스 */
+#login_back .qservice{position:fixed; top:0; right:0; width:95px; background-color:#565656; float:right; height:100%; }
+#login_back .qservice ul{margin-top:165px;}
+#login_back .qservice li{border-top:1px solid #676767; border-bottom:1px solid #4d4d4d;}
+#login_back .qservice li.service01{border-top:none;}
+#login_back .qservice li.service04{border-bottom:none;}
+#login_back .qservice li a{width:95px; height:140px; padding-top:88px; text-align:center; display:inline-block; line-height:18px; font-size:14px; font-weight:200; color:#fff; box-sizing:border-box; }
+#login_back .qservice li.service01 a{background:url(../images/login/icon_mail.png) no-repeat center 20px; }
+#login_back .qservice li.service01 a:hover{background:url(../images/login/icon_mail_on.png) no-repeat center 20px #4d4d4d; font-weight:400;}
+#login_back .qservice li.service02 a{background:url(../images/login/icon_hlep.png) no-repeat center 20px;}
+#login_back .qservice li.service02 a:hover{background:url(../images/login/icon_hlep_on.png) no-repeat center 20px #4d4d4d; font-weight:400;}
+#login_back .qservice li.service03 a{background:url(../images/login/icon_homepage.png) no-repeat center 20px;}
+#login_back .qservice li.service03 a:hover{background:url(../images/login/icon_homepage_on.png) no-repeat center 20px #4d4d4d; font-weight:400;}
+#login_back .qservice li.service04 a{background:url(../images/login/icon_remote.png) no-repeat center 20px;}
+#login_back .qservice li.service04 a:hover{background:url(../images/login/icon_remote_on.png) no-repeat center 20px #4d4d4d; font-weight:400;}
+
+/* footer */
+#login_back .footer{width:100%; text-align:center; margin-top:35px;}
+#login_back .footer h5{font-size:12px; color:#aaaaaa; font-weight:200; letter-spacing:0 !important; height:12px; line-height:12px;}
+
+.loginArea{font-size:12px; line-height:16px;}
+.loginArea .Portlet_tab_main li ul input[type=text], input[type=password]{display:inline-block; width:248px; height:34px; border:1px solid #dbdbdb; margin-bottom:8px; padding-left:10px; color:#787878; font-family:Dotum; font-size:12px; color:#999;}
+.loginArea .Portlet_tab_main li ul .login_id a.login_btn, .loginArea .Portlet_tab_main li ul .login_regist a.login_btn{display:inline-block; width:258px; height:34px; background-color:#f8f8f8; line-height:34px; color:#787878;text-align:center; font-size:15px; font-weight:500; border:1px solid #dbdbdb; vertical-align:top; margin-top:8px;}
+#login p.error{width:260px; height:32px; line-height:16px; font-size:12px;  color:#f05e55;}
+
+.loginArea .Portlet_tab_main li ul .login_regist .regist_txt{padding:24px 0 22px 0; margin-bottom:8px;}
+
+}
+
+@media all and (max-width:1279px) { 
+#login_back{display:none;}
+#login_mobile{background:url(../images/login/back.gif) no-repeat left top;}
+#login_mobile h1{width:100%; text-align:center; padding:28px 0;} 
+#login_mobile .login_box{background-color:#fff; margin:0 30px; padding:30px 20px;} 
+#login_mobile .login_box .login_title{background:url(../images/login/login_title.png) no-repeat center top; text-align:center; padding:63px 0 30px 0; font:16px; font-weight:400; color:#555;}
+#login_mobile .login_box .login_title span{color:#000;}
+
+
+/* 로그인 탭영역 */
+.login_box .Portlet_tab_main{position:relative; width:100%; height:284px;}
+.login_box .Portlet_tab_main:after{clear:both; display:block; content:"";}
+.login_box .Portlet_tab_main ul{width:100%;}
+.login_box .Portlet_tab_main ul:after{clear:both; display:block; content:"";}
+.login_box .Portlet_tab_main > ul > li{width:50%; float:left; display:inline-block; height:54px; box-sizing:border-box; padding:0 3px; text-align:center;}
+.login_box .Portlet_tab_main > ul > li:after{clear:both; display:block; content:"";}
+.login_box .Portlet_tab_main > ul > li > a{display:inline-block; width:100%; height:46px; line-height:46px; background-color:#565656;}
+.login_box .Portlet_tab_main > ul > li > a span{font-size:16px; font-weight:300; color:#fff;}
+.login_box .Portlet_tab_main > ul > li > ul{display:none;}
+.login_box .Portlet_tab_main > ul > li > ul:after{clear:both; display:block; content:"";}
+
+.login_box .Portlet_tab_main.m1 .m1,
+.login_box .Portlet_tab_main.m2 .m2{background:url(../images/login/tab_over_mobile.gif) no-repeat center bottom;}
+.login_box .Portlet_tab_main.m1 .m1 > a,
+.login_box .Portlet_tab_main.m2 .m2 > a{background-color:#4285ea;}
+.login_box .Portlet_tab_main.m1 .m1 > a > span,
+.login_box .Portlet_tab_main.m2 .m2 > a > span{font-weight:500;}
+
+
+/* 로그인 탭영역 */
+.login_box .Portlet_tab_main.m1 .m1 > ul,
+.login_box .Portlet_tab_main.m2 .m2 > ul{width:100%; position:absolute; top:64px; left:0; display:block;  margin:0; padding:0;}
+.login_box .Portlet_tab_main li li span{display:inline-block; border:none !important; background-image:none !important;font-weight:400 !important; padding:0 !important; vertical-align:middle !important; height:17px; line-height:17px;}
+.login_box .Portlet_tab_main li ul p.uchk{text-align:left; height:24px; line-height:24px; margin:5px 0;}
+.login_box .Portlet_tab_main li ul p.uchk input{vertical-align:middle;}
+.login_box .Portlet_tab_main li ul p.uchk label{font-weight:300; color:#888; font-size:12px;height:12px; line-height:12px; margin-left:5px; }
+.login_box .Portlet_tab_main li fieldset{margin-top:10px;}
+.login_box .Portlet_tab_main li ul a{background-image:none !important;}
+.login_box .Portlet_tab_main li ul .login_regist{padding-top:10px;}
+.login_box .Portlet_tab_main li ul .login_regist .regist_txt{background-color:#f8f8f8;width:100%; height:94px; box-sizing:border-box; padding:26px 0; border-top:1px solid #dbdbdb;border-bottom:1px solid #dbdbdb; text-align:center; margin:5px 0;}
+.login_box .Portlet_tab_main li ul .login_id a.login_btn{margin-top:2px;}
+.login_box .Portlet_tab_main li ul .login_regist .search_link{display:inline-block;}
+.login_box .Portlet_tab_main li ul p span{color:#ee3124;}
+.login_box .Portlet_tab_main li ul.search_link{padding-top:17px;}
+.login_box .Portlet_tab_main li ul.search_link li{ float:left; background:url(../images/login/search_bullet.gif) no-repeat left 6px; padding-left:8px; margin-right:8px; height:12px; line-height:12px;}
+.login_box .Portlet_tab_main li ul.search_link li a{woidfont-size:12px; color:#888;font-weight:200; height:12px; line-height:12px; letter-spacing:-0.05em !important; }
+.login_box .Portlet_tab_main li ul.search_link li a:hover{color:#555;font-weight:400; }
+.login_id{padding:0; margin:0;}
+.login_id ul li{height:52px; line-height:52px;}
+.login_id ul li input{width:100%; height:42px; border:1px solid #dbdbdb; box-sizing:border-box; padding-left:20px; }
+.login_btn{display:block; width:100%; height:42px; background-color:#f8f8f8; border:1px solid #dbdbdb; box-sizing:border-box; text-align:center; line-height:42px;}
+
+
+/* 개인정보영역 */
+#login_mobile .addserviceArea{width:100%; background-color:#fff;}
+#login_mobile .addserviceArea ul{padding:20px 0; width:270px; margin:0 auto;}
+#login_mobile .addserviceArea ul:after{clear:both; display:block; content:"";}
+#login_mobile .addserviceArea ul li{float:left; padding:0 20px; border-left:1px solid #cdcdcd;}
+#login_mobile .addserviceArea ul li.first{border-left:none;}
+
+/* 자주 찾는 서비스 */
+#login_mobile .qservice{width:100%; background-color:#565656;}
+#login_mobile .qservice ul{padding-top:30px; width:100%; background-color:#565656; text-align:center;}
+#login_mobile .qservice ul:after{clear:both; display:block; content:"";}
+#login_mobile .qservice ul li{float:left; width:25%;}
+#login_mobile .qservice ul li a{width:100%; height:46px; padding-top:71px; text-align:center; display:inline-block;color:#fff; font:14px; font-weight:200;}
+#login_mobile .qservice li.service01 a{background:url(../images/login/icon_mail.png) no-repeat top center; }
+#login_mobile .qservice li.service01 a:hover{background:url(../images/login/icon_mail_on.png) no-repeat top center; }
+#login_mobile .qservice li.service02 a{background:url(../images/login/icon_hlep.png) no-repeat top center; }
+#login_mobile .qservice li.service02 a:hover{background:url(../images/login/icon_hlep_on.png) no-repeat top center; }
+#login_mobile .qservice li.service03 a{background:url(../images/login/icon_homepage.png) no-repeat top center; }
+#login_mobile .qservice li.service03 a:hover{background:url(../images/login/icon_homepage_on.png) no-repeat top center; }
+#login_mobile .qservice li.service04 a{background:url(../images/login/icon_remote.png) no-repeat top center; }
+#login_mobile .qservice li.service04 a:hover{background:url(../images/login/icon_remote_on.png) no-repeat top center; }
+
+/* 성신공지 영역 */
+#login_mobile .academicArea{background:url(../images/login/notice_back_mobile.gif) no-repeat left bottom #692395; padding:38px 52px;}
+#login_mobile .academicArea p{font-size:12px; font-weight:200; color:#d2bddf; letter-spacing:1px;}
+#login_mobile .academicArea h3{font-size:28px; font-weight:600; color:#fff;}
+#login_mobile .academicArea ul{width:100%; box-sizing:border-box; background:url(../images/login/list_line.gif) no-repeat 6px 0; margin-top:32px; display:inline-block;}
+#login_mobile .academicArea ul li{position:relative; box-sizing:border-box; width:100%; background:url(../images/login/list_off.gif) no-repeat left 1px; padding:0 70px 0 30px; height:43px; }
+#login_mobile .academicArea ul li.last{height:15px;}
+
+#login_mobile .academicArea ul li:hover{background:url(../images/login/list_on.gif) no-repeat left 1px;}
+#login_mobile .academicArea ul li a{width:80%;font-size:16px; height:16px; line-height:16px; font-weight:300; color:#c190e0; display:inline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+#login_mobile .academicArea ul li a:hover{font-weight:400; color:#fff;}
+#login_mobile .academicArea ul li span{position:absolute; top:0; right:0; width:64px;font-size:13px; font-weight:200; color:#c190e0; display:inline-block;}
+
+/* footer */
+#login_mobile #footer{background-color:#ecebf4; padding:0;}
+#login_mobile #footer p{text-align:center; font-size:12px; color:#494949; margin:10px 0;}
+
+
+/* 안내문 */
+.login_matter{ background-color:#f8f8f8; padding:30px 0; margin-top:20px; text-align:center;}
+.login_matter:after{clear:both; display:block; content:"";}
+.login_matter ul{display:inline-block; width:300px; margin:0 auto; box-sizing:border-box; height:61px; background:url(../images/login/icon_notice.png) no-repeat left center; padding-left:69px;}
+.login_matter ul li{height:28px; line-height:28px; font-size:14px; font-weight:300; color:#555;}
+.login_matter ul li span{font-weight:500; color:#682495;}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

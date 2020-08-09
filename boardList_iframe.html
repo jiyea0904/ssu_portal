@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>:: 성신여자대학교 ::</title>
+<link rel="stylesheet" type="text/css" href="css/sub.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/sub.js"></script>
+</head>
+<body class="iframe">
+
+<div class="board">
+    <!-- searchArea-->
+    <div class="tsearchArea">
+        <div class="inputbox">
+            <p class="txt"></p>
+            <select>
+                <option>카테고리</option>
+                <option>카테고리</option>
+                <option>카테고리</option>
+            </select>
+        </div>        
+        <fieldset>
+            <div class="inputbox">
+                <p class="txt"></p>
+                <select>
+                    <option>선택</option>
+                    <option>제목</option>
+                    <option>본문</option>
+                    <option>작성자</option>
+                    <option>제목 + 본문</option>
+                </select>
+            </div> 
+            <label for="search"></label><input type="text" id="search " /><a class="btn_search" href="#"><img src="images/sub/icon_search.png" alt="검색버튼영역"/></a>
+        </fieldset>
+    </div>
+    <!-- searchArea//-->
+    <!-- table-->
+    <table cellpadding="0" cellspacing="0" summary="게시판리스트" class="list web" >  
+        <caption>게시판리스트</caption>
+        <colgroup>
+            <col width="11%" />
+            <col width="*%" />
+            <col width="14%" />
+            <col width="12%" />
+            <col width="14%" />
+            <col width="11%" />
+          </colgroup>
+        <thead>
+            <tr>
+                <th class="C first"><span class="table_title">번호</span></th>
+                <th class="C"><span class="table_title">제목</span></th>
+                <th class="C"><span class="table_title">다운로드</span></th>
+                <th class="C"><span class="table_title">홍길동</span></th>
+                <th class="C"><span class="table_title">작성일</span></th>
+                <th class="C"><span class="table_title">조회</span></th>
+            </tr>
+        </thead>
+        <tbody>   
+            <tr class="notice">
+                <td class="C"><img src="images/sub/notice_icon.png" alt="공지 아이콘" /></td>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C"><img src="images/sub/icon_file.png" alt="첨부파일 아이콘" /></td>
+                <td class="C">홍길동</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+            <tr class="notice">
+                <td class="C"><img src="images/sub/notice_icon.png" alt="공지" /></td>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span><img src="images/sub/icon_new.png" alt="new 버튼" /></a></td>
+                <td class="C"><img src="images/sub/icon_file.png" alt="첨부파일 아이콘" /></td>
+                <td class="C">홍길동</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+            <tr>
+                <td class="C">124</td>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span><span class="count_reply">(5)</span></a></td>
+                <td class="C"><img src="images/sub/icon_file.png" alt="첨부파일 아이콘" /></td>
+                <td class="C">나길동</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+            <tr>
+                <td class="C">123</td>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C"><img src="images/sub/icon_file.png" alt="첨부파일 아이콘" /></td>
+                <td class="C">나길동</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+            <tr>
+                <td class="C">122</td>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C"></td>
+                <td class="C">홍수아</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+            <tr>
+                <td class="C">121</td>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C"></td>
+                <td class="C">나길동</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+            <tr>
+                <td class="C"></td>
+				<td class="L"><span class="icon_re"><img src="images/sub/icon_answer.png" alt="답글" /></span><span class="icon_secret"><img src="images/sub/icon_secret.png" alt="비밀글" /></span><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C"></td>
+                <td class="C">나길동</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+            <tr>
+                <td class="C">119</td>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C"></td>
+                <td class="C">홍수아</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+            <tr>
+                <td class="C">118</td>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C"></td>
+                <td class="C">나길동</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+            <tr>
+                <td class="C">117</td>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C"></td>
+                <td class="C">나길동</td>
+                <td class="C">2017 - 11 - 24</td>
+                <td class="C">269</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- table//-->
+    <!-- table-->
+    <table cellpadding="0" cellspacing="0" summary="게시판리스트" class="list mobile" >  
+        <caption>게시판리스트</caption>
+        <colgroup>
+            <col width="60%" />
+            <col width="40%" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th class="C"><span class="table_title">제목</span></th>
+                <th class="C"><span class="table_title">작성일</span></th>
+            </tr>
+        </thead>
+        <tbody>   
+            <tr class="notice">
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+            <tr class="notice">
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+            <tr>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+            <tr>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+            <tr>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+            <tr>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+            <tr>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+            <tr>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+            <tr>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+            <tr>
+                <td class="L"><a href="#"><span class="title">성신여자대학교 포털시스템 구축 오픈입니다.</span></a></td>
+                <td class="C">2017 - 11 - 24</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- table//-->
+    <!-- tcontrol-->
+    <div class="tcontrol">
+        <!-- paging -->
+        <div class="paging">            	
+            <a class="no_bg" href="#" title="처음페이지"><img src="images/sub/btn_page_first.png" alt="첫 페이지로 이동" /></a><a class="no_bg" href="#" title="이전페이지"><img src="images/sub/btn_page_prev.png" alt="이전 페이지로 이동" /></a><a href="#" class="first">1</a> <a href="#" class="on">2</a><a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">6</a> <a href="#">7</a> <a href="#">8</a> <a href="#">9</a> <a href="#">10</a> <a class="no_bg" href="#"><img src="images/sub/btn_page_next.png" alt="다음 페이지로 이동" title="다음페이지"/></a> <a class="no_bg" href="#"><img src="images/sub/btn_page_last.png" alt="마지막 페이지로 이동" title="마지막페이지"/></a>
+        </div>
+        <!-- paging//-->
+    </div>
+    <!-- tcontrol//-->
+    <!-- btnArea-->
+    <div class="btnArea">
+        <div class="R"><a class="btn_black full" href="#"><span>등 록</span></a></div>
+    </div>
+    <!-- btnArea//-->
+</div>
+</body>
+</html>
+
+
+
+
